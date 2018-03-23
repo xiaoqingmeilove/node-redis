@@ -1,0 +1,25 @@
+{
+  "name": "koatest",
+  "version": "1.0.0",
+  "description": "多线程服务器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "mqtt": "nodemon index_mqtt.js"
+  },
+  "author": "xzq",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "koa": "^2.5.0",
+    "koa-body": "^2.5.0",
+    "koa-redis": "^3.1.2",
+    "koa-router": "^7.4.0",
+    "mosca": "^2.8.0",
+    "nodemon": "^1.17.2",
+    "redis": "^2.8.0",
+    "request": "^2.85.0"
+  }
+}
